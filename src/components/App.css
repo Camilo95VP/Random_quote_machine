@@ -1,0 +1,56 @@
+#main {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+  color: var(--main-txt-color);
+}
+
+#quote-box {
+  width: 900px;
+  background-color: aliceblue;
+  height: auto;
+  padding: 40px 50px;
+  border-radius: 5%;
+  -webkit-box-shadow: 78px 61px 35px -1px rgba(0,0,0,0.27);
+  -moz-box-shadow: 78px 61px 35px -1px rgba(0,0,0,0.27);
+  box-shadow: 78px 61px 35px -1px rgba(0,0,0,0.27);
+  
+}
+
+
+#text h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.45em;
+  padding: 15px;
+}
+
+#author h5 {
+  padding-top: 20px;
+  font-size: 1.2em;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+
+.twitter-icon {
+  color: var(--main-bg-color);
+  size: 50px;
+}
+
+.button {
+  margin-bottom: 10px;
+  background-color: rgb(0, 119, 255) ;
+  color: white;
+
+}
